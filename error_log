@@ -1,0 +1,176 @@
+[31-Jul-2024 03:47:43 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_agent' cannot be null in /home/besc3955/public_html/framework/base/Connection.php:172
+Stack trace:
+#0 /home/besc3955/public_html/framework/base/Connection.php(172): PDOStatement->execute()
+#1 /home/besc3955/public_html/framework/base/Connection.php(163): dee\base\Connection->executeInternal(Object(PDOStatement))
+#2 /home/besc3955/public_html/framework/base/Connection.php(205): dee\base\Connection->execute('INSERT INTO vis...', Array)
+#3 /home/besc3955/public_html/protected/models/Head.php(24): dee\base\Connection->insert('visitors', Array)
+#4 /home/besc3955/public_html/protected/controllers/blog/Main.php(18): app\models\Head->get_settings()
+#5 [internal function]: app\controllers\Main->actionIndex()
+#6 /home/besc3955/public_html/framework/base/Controller.php(112): call_user_func_array(Array, Array)
+#7 /home/besc3955/public_html/framework/base/Application.php(138): dee\base\Controller->run('index', Array, true)
+#8 /home/b in /home/besc3955/public_html/framework/base/Connection.php on line 175
+[31-Jul-2024 03:47:43 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_agent' cannot be null in /home/besc3955/public_html/framework/base/Connection.php:172
+Stack trace:
+#0 /home/besc3955/public_html/framework/base/Connection.php(172): PDOStatement->execute()
+#1 /home/besc3955/public_html/framework/base/Connection.php(163): dee\base\Connection->executeInternal(Object(PDOStatement))
+#2 /home/besc3955/public_html/framework/base/Connection.php(205): dee\base\Connection->execute('INSERT INTO vis...', Array)
+#3 /home/besc3955/public_html/protected/models/Head.php(24): dee\base\Connection->insert('visitors', Array)
+#4 /home/besc3955/public_html/protected/controllers/blog/Main.php(18): app\models\Head->get_settings()
+#5 [internal function]: app\controllers\Main->actionIndex()
+#6 /home/besc3955/public_html/framework/base/Controller.php(112): call_user_func_array(Array, Array)
+#7 /home/besc3955/public_html/framework/base/Application.php(138): dee\base\Controller->run('index', Array, true)
+#8 /home/b in /home/besc3955/public_html/framework/base/Connection.php on line 175
+[31-Jul-2024 03:47:43 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_agent' cannot be null in /home/besc3955/public_html/framework/base/Connection.php:172
+Stack trace:
+#0 /home/besc3955/public_html/framework/base/Connection.php(172): PDOStatement->execute()
+#1 /home/besc3955/public_html/framework/base/Connection.php(163): dee\base\Connection->executeInternal(Object(PDOStatement))
+#2 /home/besc3955/public_html/framework/base/Connection.php(205): dee\base\Connection->execute('INSERT INTO vis...', Array)
+#3 /home/besc3955/public_html/protected/models/Head.php(24): dee\base\Connection->insert('visitors', Array)
+#4 /home/besc3955/public_html/protected/controllers/blog/Main.php(18): app\models\Head->get_settings()
+#5 [internal function]: app\controllers\Main->actionIndex()
+#6 /home/besc3955/public_html/framework/base/Controller.php(112): call_user_func_array(Array, Array)
+#7 /home/besc3955/public_html/framework/base/Application.php(138): dee\base\Controller->run('index', Array, true)
+#8 /home/b in /home/besc3955/public_html/framework/base/Connection.php on line 175
+[31-Jul-2024 16:28:26 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_agent' cannot be null in /home/besc3955/public_html/framework/base/Connection.php:172
+Stack trace:
+#0 /home/besc3955/public_html/framework/base/Connection.php(172): PDOStatement->execute()
+#1 /home/besc3955/public_html/framework/base/Connection.php(163): dee\base\Connection->executeInternal(Object(PDOStatement))
+#2 /home/besc3955/public_html/framework/base/Connection.php(205): dee\base\Connection->execute('INSERT INTO vis...', Array)
+#3 /home/besc3955/public_html/protected/models/Head.php(24): dee\base\Connection->insert('visitors', Array)
+#4 /home/besc3955/public_html/protected/controllers/blog/Main.php(18): app\models\Head->get_settings()
+#5 [internal function]: app\controllers\Main->actionIndex()
+#6 /home/besc3955/public_html/framework/base/Controller.php(112): call_user_func_array(Array, Array)
+#7 /home/besc3955/public_html/framework/base/Application.php(138): dee\base\Controller->run('index', Array, true)
+#8 /home/b in /home/besc3955/public_html/framework/base/Connection.php on line 175
+[01-Aug-2024 02:24:00 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_agent' cannot be null in /home/besc3955/public_html/framework/base/Connection.php:172
+Stack trace:
+#0 /home/besc3955/public_html/framework/base/Connection.php(172): PDOStatement->execute()
+#1 /home/besc3955/public_html/framework/base/Connection.php(163): dee\base\Connection->executeInternal(Object(PDOStatement))
+#2 /home/besc3955/public_html/framework/base/Connection.php(205): dee\base\Connection->execute('INSERT INTO vis...', Array)
+#3 /home/besc3955/public_html/protected/models/Head.php(24): dee\base\Connection->insert('visitors', Array)
+#4 /home/besc3955/public_html/protected/controllers/blog/Main.php(18): app\models\Head->get_settings()
+#5 [internal function]: app\controllers\Main->actionIndex()
+#6 /home/besc3955/public_html/framework/base/Controller.php(112): call_user_func_array(Array, Array)
+#7 /home/besc3955/public_html/framework/base/Application.php(138): dee\base\Controller->run('index', Array, true)
+#8 /home/b in /home/besc3955/public_html/framework/base/Connection.php on line 175
+[01-Aug-2024 03:54:50 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_agent' cannot be null in /home/besc3955/public_html/framework/base/Connection.php:172
+Stack trace:
+#0 /home/besc3955/public_html/framework/base/Connection.php(172): PDOStatement->execute()
+#1 /home/besc3955/public_html/framework/base/Connection.php(163): dee\base\Connection->executeInternal(Object(PDOStatement))
+#2 /home/besc3955/public_html/framework/base/Connection.php(205): dee\base\Connection->execute('INSERT INTO vis...', Array)
+#3 /home/besc3955/public_html/protected/models/Head.php(24): dee\base\Connection->insert('visitors', Array)
+#4 /home/besc3955/public_html/protected/controllers/blog/Main.php(18): app\models\Head->get_settings()
+#5 [internal function]: app\controllers\Main->actionIndex()
+#6 /home/besc3955/public_html/framework/base/Controller.php(112): call_user_func_array(Array, Array)
+#7 /home/besc3955/public_html/framework/base/Application.php(138): dee\base\Controller->run('index', Array, true)
+#8 /home/b in /home/besc3955/public_html/framework/base/Connection.php on line 175
+[01-Aug-2024 03:54:51 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_agent' cannot be null in /home/besc3955/public_html/framework/base/Connection.php:172
+Stack trace:
+#0 /home/besc3955/public_html/framework/base/Connection.php(172): PDOStatement->execute()
+#1 /home/besc3955/public_html/framework/base/Connection.php(163): dee\base\Connection->executeInternal(Object(PDOStatement))
+#2 /home/besc3955/public_html/framework/base/Connection.php(205): dee\base\Connection->execute('INSERT INTO vis...', Array)
+#3 /home/besc3955/public_html/protected/models/Head.php(24): dee\base\Connection->insert('visitors', Array)
+#4 /home/besc3955/public_html/protected/controllers/blog/Main.php(18): app\models\Head->get_settings()
+#5 [internal function]: app\controllers\Main->actionIndex()
+#6 /home/besc3955/public_html/framework/base/Controller.php(112): call_user_func_array(Array, Array)
+#7 /home/besc3955/public_html/framework/base/Application.php(138): dee\base\Controller->run('index', Array, true)
+#8 /home/b in /home/besc3955/public_html/framework/base/Connection.php on line 175
+[01-Aug-2024 03:54:52 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_agent' cannot be null in /home/besc3955/public_html/framework/base/Connection.php:172
+Stack trace:
+#0 /home/besc3955/public_html/framework/base/Connection.php(172): PDOStatement->execute()
+#1 /home/besc3955/public_html/framework/base/Connection.php(163): dee\base\Connection->executeInternal(Object(PDOStatement))
+#2 /home/besc3955/public_html/framework/base/Connection.php(205): dee\base\Connection->execute('INSERT INTO vis...', Array)
+#3 /home/besc3955/public_html/protected/models/Head.php(24): dee\base\Connection->insert('visitors', Array)
+#4 /home/besc3955/public_html/protected/controllers/blog/Main.php(18): app\models\Head->get_settings()
+#5 [internal function]: app\controllers\Main->actionIndex()
+#6 /home/besc3955/public_html/framework/base/Controller.php(112): call_user_func_array(Array, Array)
+#7 /home/besc3955/public_html/framework/base/Application.php(138): dee\base\Controller->run('index', Array, true)
+#8 /home/b in /home/besc3955/public_html/framework/base/Connection.php on line 175
+[01-Aug-2024 10:01:42 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_agent' cannot be null in /home/besc3955/public_html/framework/base/Connection.php:172
+Stack trace:
+#0 /home/besc3955/public_html/framework/base/Connection.php(172): PDOStatement->execute()
+#1 /home/besc3955/public_html/framework/base/Connection.php(163): dee\base\Connection->executeInternal(Object(PDOStatement))
+#2 /home/besc3955/public_html/framework/base/Connection.php(205): dee\base\Connection->execute('INSERT INTO vis...', Array)
+#3 /home/besc3955/public_html/protected/models/Head.php(24): dee\base\Connection->insert('visitors', Array)
+#4 /home/besc3955/public_html/protected/controllers/blog/Main.php(18): app\models\Head->get_settings()
+#5 [internal function]: app\controllers\Main->actionIndex()
+#6 /home/besc3955/public_html/framework/base/Controller.php(112): call_user_func_array(Array, Array)
+#7 /home/besc3955/public_html/framework/base/Application.php(138): dee\base\Controller->run('index', Array, true)
+#8 /home/b in /home/besc3955/public_html/framework/base/Connection.php on line 175
+[01-Aug-2024 16:48:22 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_agent' cannot be null in /home/besc3955/public_html/framework/base/Connection.php:172
+Stack trace:
+#0 /home/besc3955/public_html/framework/base/Connection.php(172): PDOStatement->execute()
+#1 /home/besc3955/public_html/framework/base/Connection.php(163): dee\base\Connection->executeInternal(Object(PDOStatement))
+#2 /home/besc3955/public_html/framework/base/Connection.php(205): dee\base\Connection->execute('INSERT INTO vis...', Array)
+#3 /home/besc3955/public_html/protected/models/Head.php(24): dee\base\Connection->insert('visitors', Array)
+#4 /home/besc3955/public_html/protected/controllers/blog/Main.php(18): app\models\Head->get_settings()
+#5 [internal function]: app\controllers\Main->actionIndex()
+#6 /home/besc3955/public_html/framework/base/Controller.php(112): call_user_func_array(Array, Array)
+#7 /home/besc3955/public_html/framework/base/Application.php(138): dee\base\Controller->run('index', Array, true)
+#8 /home/b in /home/besc3955/public_html/framework/base/Connection.php on line 175
+[02-Aug-2024 03:52:40 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_agent' cannot be null in /home/besc3955/public_html/framework/base/Connection.php:172
+Stack trace:
+#0 /home/besc3955/public_html/framework/base/Connection.php(172): PDOStatement->execute()
+#1 /home/besc3955/public_html/framework/base/Connection.php(163): dee\base\Connection->executeInternal(Object(PDOStatement))
+#2 /home/besc3955/public_html/framework/base/Connection.php(205): dee\base\Connection->execute('INSERT INTO vis...', Array)
+#3 /home/besc3955/public_html/protected/models/Head.php(24): dee\base\Connection->insert('visitors', Array)
+#4 /home/besc3955/public_html/protected/controllers/blog/Main.php(18): app\models\Head->get_settings()
+#5 [internal function]: app\controllers\Main->actionIndex()
+#6 /home/besc3955/public_html/framework/base/Controller.php(112): call_user_func_array(Array, Array)
+#7 /home/besc3955/public_html/framework/base/Application.php(138): dee\base\Controller->run('index', Array, true)
+#8 /home/b in /home/besc3955/public_html/framework/base/Connection.php on line 175
+[02-Aug-2024 03:52:41 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_agent' cannot be null in /home/besc3955/public_html/framework/base/Connection.php:172
+Stack trace:
+#0 /home/besc3955/public_html/framework/base/Connection.php(172): PDOStatement->execute()
+#1 /home/besc3955/public_html/framework/base/Connection.php(163): dee\base\Connection->executeInternal(Object(PDOStatement))
+#2 /home/besc3955/public_html/framework/base/Connection.php(205): dee\base\Connection->execute('INSERT INTO vis...', Array)
+#3 /home/besc3955/public_html/protected/models/Head.php(24): dee\base\Connection->insert('visitors', Array)
+#4 /home/besc3955/public_html/protected/controllers/blog/Main.php(18): app\models\Head->get_settings()
+#5 [internal function]: app\controllers\Main->actionIndex()
+#6 /home/besc3955/public_html/framework/base/Controller.php(112): call_user_func_array(Array, Array)
+#7 /home/besc3955/public_html/framework/base/Application.php(138): dee\base\Controller->run('index', Array, true)
+#8 /home/b in /home/besc3955/public_html/framework/base/Connection.php on line 175
+[02-Aug-2024 03:52:42 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_agent' cannot be null in /home/besc3955/public_html/framework/base/Connection.php:172
+Stack trace:
+#0 /home/besc3955/public_html/framework/base/Connection.php(172): PDOStatement->execute()
+#1 /home/besc3955/public_html/framework/base/Connection.php(163): dee\base\Connection->executeInternal(Object(PDOStatement))
+#2 /home/besc3955/public_html/framework/base/Connection.php(205): dee\base\Connection->execute('INSERT INTO vis...', Array)
+#3 /home/besc3955/public_html/protected/models/Head.php(24): dee\base\Connection->insert('visitors', Array)
+#4 /home/besc3955/public_html/protected/controllers/blog/Main.php(18): app\models\Head->get_settings()
+#5 [internal function]: app\controllers\Main->actionIndex()
+#6 /home/besc3955/public_html/framework/base/Controller.php(112): call_user_func_array(Array, Array)
+#7 /home/besc3955/public_html/framework/base/Application.php(138): dee\base\Controller->run('index', Array, true)
+#8 /home/b in /home/besc3955/public_html/framework/base/Connection.php on line 175
+[03-Aug-2024 04:06:34 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_agent' cannot be null in /home/besc3955/public_html/framework/base/Connection.php:172
+Stack trace:
+#0 /home/besc3955/public_html/framework/base/Connection.php(172): PDOStatement->execute()
+#1 /home/besc3955/public_html/framework/base/Connection.php(163): dee\base\Connection->executeInternal(Object(PDOStatement))
+#2 /home/besc3955/public_html/framework/base/Connection.php(205): dee\base\Connection->execute('INSERT INTO vis...', Array)
+#3 /home/besc3955/public_html/protected/models/Head.php(24): dee\base\Connection->insert('visitors', Array)
+#4 /home/besc3955/public_html/protected/controllers/blog/Main.php(18): app\models\Head->get_settings()
+#5 [internal function]: app\controllers\Main->actionIndex()
+#6 /home/besc3955/public_html/framework/base/Controller.php(112): call_user_func_array(Array, Array)
+#7 /home/besc3955/public_html/framework/base/Application.php(138): dee\base\Controller->run('index', Array, true)
+#8 /home/b in /home/besc3955/public_html/framework/base/Connection.php on line 175
+[03-Aug-2024 04:06:35 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_agent' cannot be null in /home/besc3955/public_html/framework/base/Connection.php:172
+Stack trace:
+#0 /home/besc3955/public_html/framework/base/Connection.php(172): PDOStatement->execute()
+#1 /home/besc3955/public_html/framework/base/Connection.php(163): dee\base\Connection->executeInternal(Object(PDOStatement))
+#2 /home/besc3955/public_html/framework/base/Connection.php(205): dee\base\Connection->execute('INSERT INTO vis...', Array)
+#3 /home/besc3955/public_html/protected/models/Head.php(24): dee\base\Connection->insert('visitors', Array)
+#4 /home/besc3955/public_html/protected/controllers/blog/Main.php(18): app\models\Head->get_settings()
+#5 [internal function]: app\controllers\Main->actionIndex()
+#6 /home/besc3955/public_html/framework/base/Controller.php(112): call_user_func_array(Array, Array)
+#7 /home/besc3955/public_html/framework/base/Application.php(138): dee\base\Controller->run('index', Array, true)
+#8 /home/b in /home/besc3955/public_html/framework/base/Connection.php on line 175
+[03-Aug-2024 04:06:35 Asia/Jakarta] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_agent' cannot be null in /home/besc3955/public_html/framework/base/Connection.php:172
+Stack trace:
+#0 /home/besc3955/public_html/framework/base/Connection.php(172): PDOStatement->execute()
+#1 /home/besc3955/public_html/framework/base/Connection.php(163): dee\base\Connection->executeInternal(Object(PDOStatement))
+#2 /home/besc3955/public_html/framework/base/Connection.php(205): dee\base\Connection->execute('INSERT INTO vis...', Array)
+#3 /home/besc3955/public_html/protected/models/Head.php(24): dee\base\Connection->insert('visitors', Array)
+#4 /home/besc3955/public_html/protected/controllers/blog/Main.php(18): app\models\Head->get_settings()
+#5 [internal function]: app\controllers\Main->actionIndex()
+#6 /home/besc3955/public_html/framework/base/Controller.php(112): call_user_func_array(Array, Array)
+#7 /home/besc3955/public_html/framework/base/Application.php(138): dee\base\Controller->run('index', Array, true)
+#8 /home/b in /home/besc3955/public_html/framework/base/Connection.php on line 175

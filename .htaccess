@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#hilangkan slash /
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+RewriteRule ^(.*)$ index.php?route=/$1 [QSA,L]
+
