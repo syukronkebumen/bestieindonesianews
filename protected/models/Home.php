@@ -18,7 +18,7 @@ class Home
 
 	}
 	public function galery(){
-		$data = "SELECT * FROM `galery` WHERE `kategori`= '2' AND `status`='0' ORDER BY id DESC limit 2";
+		$data = "SELECT * FROM `galery` WHERE `kategori`= '2' AND `status`='0' ORDER BY id DESC limit 3";
 		return \Dee::$app->db->queryAll($data);
 	}
     public function slide(){
