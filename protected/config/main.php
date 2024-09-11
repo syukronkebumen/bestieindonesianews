@@ -1,8 +1,8 @@
 <?php
 
-$dsn = 'mysql:host=localhost;dbname=db-bestieindonesianews;charset=UTF8';
-$usn = 'root-bestieindonesianews';
-$pwd = 'aaa12345!11';
+$dsn = 'mysql:host=localhost;dbname=bestieindonesianews;charset=UTF8';
+$usn = 'root';
+$pwd = '';
 
 $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on' ? 'https' : 'http';
 $host = $_SERVER['HTTP_HOST'];
@@ -11,7 +11,7 @@ return [
     'niw' => '1',
     'controllerNamespace' => 'app\controllers',
     'basePath' => dirname(__DIR__),
-    'baseUrl' => $protocol . '://' . $host,
+    'baseUrl' => $protocol . '://' . $host . '/bestieindonesianews2',
     'basePathe' => __DIR__ . '/../../public',
     'components' => [
         'db' => [

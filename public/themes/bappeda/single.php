@@ -98,6 +98,17 @@
     .berita-view .additional-content {
         margin-top: 2em;
     }
+
+    .card-deck {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        padding-top: 20px;
+    }
+
+    .card {
+        flex: 1 0 auto;
+    }
 </style>
 <?= 
     // Pisahkan konten menjadi dua bagian
@@ -241,6 +252,43 @@
                         </div>
                     </div>
                     <!--End Comment Form -->
+                    
+                    <div class="artikel-lainnya">
+                        <div class="card-deck">
+                            <div class="card">
+                                <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Image 1">
+                                <div class="card-body">
+                                    <h3 class="card-title">Card 1</h3>
+                                    <p class="card-author">Author: John Doe</p>
+                                    <p class="card-views">Views: 1234</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Image 2">
+                                <div class="card-body">
+                                    <h3 class="card-title">Card 2</h3>
+                                    <p class="card-author">Author: Jane Doe</p>
+                                    <p class="card-views">Views: 5678</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Image 3">
+                                <div class="card-body">
+                                    <h3 class="card-title">Card 3</h3>
+                                    <p class="card-author">Author: Alice Smith</p>
+                                    <p class="card-views">Views: 91011</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Image 4">
+                                <div class="card-body">
+                                    <h3 class="card-title">Card 4</h3>
+                                    <p class="card-author">Author: Bob Johnson</p>
+                                    <p class="card-views">Views: 1213</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>

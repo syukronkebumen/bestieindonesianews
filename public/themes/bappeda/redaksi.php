@@ -97,6 +97,21 @@
                     <br>
                     <strong>Bagian IT:</strong> S. Ma'mun
                     <br><br>
+                    <strong>Reporter :</strong><br>
+                    1. Bandarlampung : - <br>
+                    2. Lampung Barat : - <br> 
+                    3. Pesisir Barat : - <br>
+                    4. Tulangbawang : - <br>
+                    5. Tulangbawang Barat : - <br>
+                    6. Lampung Utara : - <br>
+                    7. Waykanan : - <br>
+                    8. Pesawaran : - <br>
+                    9. Pringsewu : - <br>
+                    10. Tanggamus : - <br>
+                    11. Lampung Selatan : - <br>
+                    12. Metro : MH. Naim <br>
+                    13. Lampung Timur : - <br>
+                    14. Mesuji : - <br><br>
                     <strong>KEMENTERIAN HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA</strong>
                     <br>
                     <strong>SERTIFIKAT PENDAFTARAN PENDIRIAN PERSEROAN PERORANGAN</strong>
