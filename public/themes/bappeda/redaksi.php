@@ -111,7 +111,7 @@
                     11. Lampung Selatan : - <br>
                     12. Metro : MH. Naim <br>
                     13. Lampung Timur : - <br>
-                    14. Mesuji : - <br><br>
+                    14. Mesuji : -  <br><br>
                     <strong>KEMENTERIAN HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA</strong>
                     <br>
                     <strong>SERTIFIKAT PENDAFTARAN PENDIRIAN PERSEROAN PERORANGAN</strong>
