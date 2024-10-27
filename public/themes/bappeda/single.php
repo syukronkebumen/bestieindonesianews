@@ -130,7 +130,7 @@
                         <div class="lower-content">
                             <div class="post-meta sidebar1">
                                 <ul class="post-info clearfix">
-                                    <li><a href=""><?= date("d-m-Y", strtotime($single['date'])) ?></a></li>
+                                    <li><a href=""><?= date("d-m-Y", strtotime($single['date'])) ?> : <?= date("H:i", strtotime($single['time'])) ?></a></li>
                                     <li><a href="">By : Redaksi</a></li>
                                     <li><a href="<?= Dee::createUrl('category/' . $single['isi']) ?>"><?= $single['isi'] ?></a></li>
                                     <li><a href="">dilihat : <?= $single['views'] ?> kali</a></li>
