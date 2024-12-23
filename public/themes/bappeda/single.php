@@ -125,7 +125,7 @@
                 <div class="blog-single padding-right">
                     <div class="inner-box">
                         <div class="lower-box">
-                            <h3><?= $single['title'] ?></h3>
+                            <h3 style="font-weight:bold"><?= $single['title'] ?></h3>
                         </div>
                         <div class="lower-content">
                             <div class="post-meta sidebar1">
